@@ -1,4 +1,4 @@
 JnWelcome
 =========
 
-This is a website which is belong to JiangNanTingYu BBS.It is a New Arrivals' welcome website.
+这是一个属于江南听雨BBS的迎新网站，欢迎大家一同来开发。
