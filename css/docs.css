@@ -59,6 +59,7 @@ section {
 section > .page-header,
 section > .lead {
   color: #5a5a5a;
+  text-indent:2em;
 }
 section > ul li {
   margin-bottom: 5px;
