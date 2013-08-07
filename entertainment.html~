@@ -66,7 +66,7 @@ var _hmt = _hmt || [];
 <header class="jumbotron subhead" id="overview">
   <div class="container">
     <h1>关于娱乐</h1>
-    <p class="lead">去哪K歌？去哪聚会？去哪游玩？且听我们慢慢道来。</p>
+    <p class="lead">去哪K歌？去哪聚会？去哪游玩？且听我们慢慢道来。</</p>
   </div>
 </header>
 
@@ -88,26 +88,17 @@ var _hmt = _hmt || [];
 
         <!-- Playing
         ================================================== -->
-<section id="playing">
-<div class="page-header">
+        <section id="playing">
+          <div class="page-header">
             <h1>周边玩乐大科普</h1>
           </div>
 		  <h2>电影院</h2>
-          <ul style="list-style-type: none" class="lead">
-<li>保利国际影城：就在南门外不远，步行即可。</li>
-<li>无锡万达电影城：滨湖区梁溪路35号万达广场娱乐楼3-4楼 在江大北门乘95路河埒新村站下车。</li>
-</ul>
+          <p class="lead">保利国际影城：就在南门外不远，步行即可。<br>
+		  无锡万达电影城：滨湖区梁溪路35号万达广场娱乐楼3-4楼 在江大北门乘95路河埒新村站下车。</p>
 		  <h2>Ktv</h2>
-          <ul style="list-style-type: none" class="lead">
-<li>似水流年KTV：就在南门对面。</li>
-<li>大歌星量贩KTV：滨湖区梁溪路35号万达广场  乘95路河埒新村站下车。</li>
-<li>丽歌量贩KTV:湖滨街15号蠡湖科技大厦,乘95路望山路下车。</li>
-</ul>
-                  <h2>网吧</h2>
-          <ul style="list-style-type: none" class="lead">
-<li>从小东门出去，天鹅湖小区那里有一个网吧。</li>
-<li>出了北大门往西面走200米左右，有个石塘街，里面有几个网吧。</li>
-</ul>
+          <p class="lead">似水流年KTV：就在南门对面<br>大歌星量贩KTV：滨湖区梁溪路35号万达广场  乘95路河埒新村站下车。<br>丽歌量贩KTV:湖滨街15号蠡湖科技大厦  乘95路望山路下车。</p>
+          <h2>网吧</h2>
+		  <p class="lead">从小东门出去，天鹅湖小区那里有一个网吧。<br>出了北大门往西面走200米左右，有个石塘街，里面有几个网吧。</p>
           <div class="row-fluid">
             <div class="span6">
             </div>
@@ -193,7 +184,7 @@ var _hmt = _hmt || [];
                   animationInSpeed: 200, // Animation in speed (ms)
                   animationOutSpeed: 200, // Animation out speed (ms)
                   scrollText: '', // Text for element
-                  activeOverlay: false  // Set CSS color to display scrollUp active point, e.g '#006600'
+                  activeOverlay: false  // Set CSS color to display scrollUp active point, e.g '#00FFFF'
             });
           });
     </script>
