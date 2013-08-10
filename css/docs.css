@@ -263,7 +263,7 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
 -------------------------------------------------- */
 
 .marketing {
-  text-align: left;
+  text-align: center;
   color: #5a5a5a;
 }
 .marketing h1 {
@@ -1069,5 +1069,13 @@ form.bs-docs-example {
 {padding-top:20px;
 margin-left:auto;
 margin-right:auto;
-width:219px;
-height:auto}
+width:215px;
+height:auto;}
+#slogan
+{
+width:auto;
+height:auto;
+text-align:center;
+font-weight:bold;
+
+}
