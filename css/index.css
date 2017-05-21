@@ -1,0 +1,24 @@
+.logo
+{
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.div-above
+{
+	margin-top:5%;
+	width:33%;
+	float: left;
+	text-align: center;
+}
+
+.div-content
+{
+	height: 50px;
+}
+
+.footer
+{
+	margin-top: 15px;
+	text-align: center;
+}

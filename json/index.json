@@ -1,0 +1,33 @@
+{
+    "title": {
+        "page_name": "江南听迎新页",
+        "slogan": "江南听雨——江南大学唯一官方校园BBS",
+        "brand":"江南听雨BBS"
+    },
+    "main_contents": {
+        "study": {
+            "title": "关于学习",
+            "tips": "这里介绍了关于学习的小贴士",
+            "article": "远离挂科，高效学习，速上巅峰..."
+        },
+        "life": {
+            "title": "关于生活",
+            "tips": "这里介绍了关于生活的小贴士",
+            "article": "学长建议，衣食住行，应有尽有..."
+        },
+        "entertainment": {
+            "title": "关于娱乐",
+            "tips": "这里介绍了关于娱乐的小贴士",
+            "article": "去哪K歌？去哪聚会？去哪游玩..."
+        }
+    },
+    "footer": {
+        "contact": "Powered by bootstrap.",
+        "site_info": {
+            "bbs": "http://www.jnrain.com",
+            "bt": "http://bt.jnrain.com",
+            "weibo": "江南大学听雨bbs",
+            "wechat": "jiangnanrainbbs"
+        }
+    }
+}
