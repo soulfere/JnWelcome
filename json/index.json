@@ -19,7 +19,8 @@
             "title": "关于娱乐",
             "tips": "这里介绍了关于娱乐的小贴士",
             "article": "去哪K歌？去哪聚会？去哪游玩..."
-        }
+        },
+        "brief":"仔细看看 - >"
     },
     "footer": {
         "contact": "Powered by bootstrap.",
