@@ -1,0 +1,30 @@
+{
+    "title": "关于娱乐",
+    "subtitle": "去哪K歌？去哪聚会？去哪游玩？且听我们慢慢道来...",
+    "navbar": {
+        "brand": "江南听雨BBS",
+        "index": "江南听雨迎新页",
+        "study": "关于学习",
+        "life": "关于生活",
+        "ent": "关于娱乐"
+    },
+    "article": {
+        "cinema": {
+            "title": "电影院",
+            "article": ["保利国际影城：南门外不远，步行即可．","无锡万达电影城：江大北门乘95路河埒新村站下车即可．"]
+        },
+        "ktv": {
+            "title": "KTV",
+            "article": ["似水流年KTV：就在南门对面．","大歌星量贩KTV：滨湖区梁溪路35号万达广场．"]
+        }
+    },
+    "footer": {
+        "contact": "Powered by bootstrap.",
+        "site_info": {
+            "bbs": "http://www.jnrain.com",
+            "bt": "http://bt.jnrain.com",
+            "weibo": "江南大学听雨bbs",
+            "wechat": "jiangnanrainbbs"
+        }
+    }
+}

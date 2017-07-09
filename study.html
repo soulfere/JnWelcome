@@ -1,210 +1,100 @@
 <!DOCTYPE html>
-<html class="no-js"><!--<![endif]--><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<html>
+  <head>
     <meta charset="utf-8">
-    <title>关于学习</title>
-    <!-- Le styles -->
+    <title></title>
     <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="css/docs.css" rel="stylesheet">
-    <style>
-    h1, h2, h3, 
-{
-  font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
-  font-weight: bold;}
-   .masthead p, .subhead p, .marketing h2, .lead{
-font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
-  font-weight: normal;
-}
+    <link href="css/study.css" rel="stylesheet">
+  </head>
 
-#scrollUp {
-  bottom: 20px;
-  right: 20px;
-  height: 38px;  /* Height of image */
-  width: 38px; /* Width of image */
-  background: url("assets/img/top.png") no-repeat;
-}
-    </style>
-    <link href="css/prettify.css" rel="stylesheet">
-    <link href="css/bootstro.css" rel="stylesheet">
-
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="//cdnjs.bootcss.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
-    <![endif]-->
-
-    <script>
-var _hmt = _hmt || [];
-</script>
-  <style type="text/css" id="holderjs-style">.holderjs-fluid {font-size:16px;font-weight:bold;text-align:center;font-family:sans-serif;margin:0}</style></head>
-
-  <body data-spy="scroll" data-target=".bs-docs-sidebar">
-
- <!--这里是最上端的导航栏-->
- <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+  <body>
+    <!--这里是最上端的导航栏-->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="icon-bar">
+            </span>
+            <span class="sr-only">
+              Toggle navigation
+            </span>
+            <span class="icon-bar">
+            </span>
+            <span class="icon-bar">
+            </span>
           </button>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-              <li class="active"><a href="index.html">首页</a></li>
-              <li><a href="#">关于学习</a></li>
-              <li><a href="life.html">关于生活</a></li>
-              <li><a href="entertainment.html">关于娱乐</a></li>
-			</ul>
-			<a class="brand">来自江南听雨BBS</a>
-          </div><!--/.nav-collapse -->
-         </div>
+          <a class="navbar-brand" href="#" id="brand">
+          </a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li>
+              <a id="index" href="index.html"></a>
+            </li>
+            <li class="active">
+              <a id="thisPage" href="#"></a>
+            </li>
+            <li>
+              <a id="lifePage" href="life.html"></a>
+            </li>
+            <li>
+              <a id="entPage" href="entertainment.html"></a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <!-- Subhead -->
+    <header class="jumbotron">
+      <div class="container">
+        <h1 id="title"></h1>
+        <p id="subtitle"></p>
       </div>
-    </div>
-<!-- Subhead
-================================================== -->
-<header class="jumbotron subhead" id="overview">
-  <div class="container">
-    <h1>关于学习</h1>
-    <p class="lead">结束了紧张的高中生活，进入大学的你是否觉得终于可以不用花心思在学习上了呢？实际大一的课业压力还是比较小，只要合理安排时间，保证学习效率，学习不会太辛苦。</p>
-  </div>
-</header>
-
-
-  <div class="container">
-
-    <!-- Docs nav
-    ================================================== -->
-    <div class="row">
-      <div class="span3 bs-docs-sidebar">
-        <ul class="nav nav-list bs-docs-sidenav affix-top">
-          <li><a href="#sub-study"><i class="icon-chevron-right"></i> 学科学习</a></li>
-          <li><a href="#library"><i class="icon-chevron-right"></i> 图书馆</a></li>
-          <li><a href="#league"><i class="icon-chevron-right"></i> 社团与学习</a></li>
-          <li><a href="#self-study"><i class="icon-chevron-right"></i> 关于自学</a></li>
-        </ul>
-      </div>
-      <div class="span9">
-
-
-
-        <!-- Study
-        ================================================== -->
-        <section id="sub-study">
-          <div class="page-header">
-            <h1>学科学习</h1>
-          </div>
-    <h2>大学英语</h2>
-          <p class="lead">   首先，在开学之前，学校会安排一次英语分级考试，这个是全校统一考，按照分数排名分成一级班、二级班和三级班。</p>
-          <p class="lead">   关于每个班所学的内容的不同，实际就在学的教材上。大学英语一共四本教材，一级班从第一本开始学，二级班从第二册开始，三级班从第三册开始，每学期学一本，不学的书不用买，所以三级班可以省下不少英语书钱，并且可以在学完了英语课本后选英语选修课来学。</p>
-          <p class="lead">   据各个学长学姐的经验，拉开分差的地方是在英语听力上，所以如果很想在这第一次大学的考试里考出好成绩，就在临近入学或者在报道之后做两套英语题，尤其是熟悉一下听力环境，这会对考出好成绩有很大的帮助。</p>
-          <p class="lead">   至于英语考试，老师会在课上给大家比较详细的介绍，总之英语还是比较好拿分，只要不旷课，正常完成作业，就不会有挂科的危险。</p>
-          <p class="lead">   除了课堂上的英语，大家比较关心的还有英语四六级，江大的安排是十二月的四六级考试只允许三级班的同学报名，第二年六月的考试允许二级班和一级班报名，所以如果想早早完成四六级的任务，就尽量考进三级班吧。</p>
-		  <h2>高等数学</h2>
-        <p class="lead">     想必大家在上高中的时候就听说过这门课的威名，不过实际上，高等数学的主要内容就是微积分，只不过会研究的比较深而已。</p>
-        <p class="lead">   对于高数的考试，期中各学院会组织一下考试，不过不计入成绩，所以可以不用担心。期末考试，课任老师会给学习委员找来历年的试题，学校的题型基本固定，而且固定的题型会有固定的解题方法，所以只要平时不要经常翘课被抓，上课听听讲，考试前耐心做做往年的卷子，不用担心考试不过。（PS：对于学霸来说，把课本后的习题都去做一下，还有学习指导书上的题都搞懂，上半年数学完全可以90+的，并且数学是很容易拉开差距的科目，如果想评奖评优，就把分数考高一点吧。）</p>
-        <p class="lead">   （PS：对于学霸来说，把课本后的习题都去做一下，还有学习指导书上的题都搞懂，上半年数学完全可以90+的，并且数学是很容易拉开差距的科目，如果想评奖评优，就把分数考高一点吧。）</p>
-    <h2>军事理论</h2>
-	    <p class="lead">     学校在第一学期每周都会安排军事理论课，会有南京的老师过来讲课，有的课比较有趣，有的课比较乏味，如果国家有标志性事件发生，在军理课上老师还会进行评论和分析。这应该是最悠闲的课了，整堂课的内容都在PPT上完成，并且是在二教的大教室上课，所以不用担心你在下面玩手机会被抓什么的。至于考试的话是开卷考试，除非缺考，否则应该是全过。</p>
-	<h2>专业课学习</h2>
-	    <p class="lead">    关于专业课，大一一般是没有的，可是有的学院会有专业讲座，大概每两周一节的样子，院长或者是老师会给大家普及一下专业的基本知识和就业方向。</p>
-	<h2>军训</h2>
-	    <p class="lead">   对于大家可能关心的军训，江大是在大一结束的暑假进行军训，那时正好是梅雨季节，所以学校在这方面还是做的比较人性化。
-          <div class="row-fluid">
-            <div class="span6">
+    </header>
+    <div class="container">
+      <!-- Study -->
+      <section>
+        <div class="page-header">
+          <h1 id="sub-study">
+          </h1>
+        </div>
+        <h2 id="eng-title">
+          大学英语
+        </h2>
+        <p class="lead" id="english"></p>
+        <h2 id="math-title">
+          高等数学
+        </h2>
+        <p class="lead" id="math"></p>
+          <div>
+            <div>
             </div>
           </div>
-        </section>
-    
-		
-        <!-- Library
-        ================================================== -->
-        <section id="library">
-          <div class="page-header">
-            <h1>图书馆</h1>
-          </div>
-          <p class="lead">   相比大家已经在各种江大的图片上看到了江大的公益图书馆，江大图书馆无论是在环境还是在藏书种类藏书量上都算是一流的。</p>     
-		  <p class="lead">  (对于图书馆简介大家可以参考百度百科：http://baike.baidu.com/view/1271167.htm)</p>     
-		  <p class="lead">   在入学之后不久大家会拿到一张校园智能卡，这张卡可以吃饭可以洗澡可以借书，这一学期结束的时候宿舍的智能门还在建设，估计以后也会有刷卡入门这种机制。</p>     
-		  <p class="lead">   原来的借书证统一被校园智能卡代替，在你用它借书之前，先要到图书馆的二楼机房里参加一个考试，就是关于学校的图书馆的相关知识，基本不用预先做功课，直接在那里边考边学就可以了，在考试通过之后，校园卡就会自动开启借书功能。</p>
-	      <p class="lead">   当然图书馆的功能不只是借书，还有上自习，图书馆五楼有一个大自习室，冬暖夏凉空调齐全，而且学习氛围很好，这些都是寝室所不能比的，所以在休息时间泡图书馆是一种不错的选择。更需要注意的是，临近考试时学校的图书馆会常年爆满，不要不屑于去图书馆抢座上自习，经验表明，在图书馆冲刺复习效率很高。临近考试，早晨七点半以后基本就坐满了，所以如果想在考试前临时抱佛脚，就早早去图书馆等开门吧。</p>
-        </section>
-
-
-
-        <!-- League
-        ================================================== -->
-        <section id="league">
-          <div class="page-header">
-            <h1>社团与学习</h1>
-          </div>
-		  <p class="lead">   在校园的生活中，大家普遍遇到的一个问题就是社团与学习之间的冲突问题。简单的来说，在社团里作为一个干事完成任务，举办活动，组织交流，这本来就也是一种学习，对于学习成绩与交际经验，不同的人有不同的理解与侧重，只要不虚度光阴，怎样都是一份收获。根据学长学姐们的经验，除了个人能力极强的人，一般同学加入一个社团就够了，面对纷繁复杂的社团招新，要根据自己的爱好选择适合自己的社团，要考虑加入这个社团对自己是否有锻炼，是否能让自己成长，千万不要报了好多个社团，结果每一个社团都没有用心在其中，这样收获也不会多，反而不知道每天自己在忙什么。</p>
-        </section>
-
-
-
-        <!-- Self-study
-        ================================================== -->
-        <section id="self-study">
-          <div class="page-header">
-            <h1>关于自学</h1>
-          </div>
-          <p class="lead">   学校给力的图书馆为每一个热爱知识热爱探索的同学提供了很好的资源，在大学，可以利用相对充裕的时间去研究一些自己早就向往的各种知识，学校的图书馆有各类教科书，完全可以通过自学来大致掌握自己所需要的知识。</p>
-		  <p class="lead">   自学的一个比较重要的环节就是发现问题并解决问题，发现问题靠自己，解决问题就有了许多途径，学校对于带电脑放宽了政策，只要不是在上课的时候在寝室里逃课打DOTA，在自习的时候乖乖自习不在寝室玩游戏被抓，学校一般是不会管带电脑的事情的。所以遇到一些问题，可以从网络上搜索答案或者提出问题等待解答。对于搜索答案，个人建议谷歌而不是百度，对于百科，个人建议查维基百科而不是百度百科。对于一些硬知识，外国人的态度比中国人来的严谨。所以如果想在深层次的问题上找到答案，尽量查英语文献吧，靠谱。</p> 
-		  <p class="lead">   当然对于更多的人，自学也涉及到学习方法的交流与学习资料的共享，这时候可以考虑在听雨的相关板块提出问题寻求解决，因为这里是一个江大人自己的学习交流平台，从建站开始的十多年里，这里的人才资源一直在积累，你可以在这里找到成功的校友，询问成功的经验，也可以在这里提出问题，让老师，学生一起解决。（PS：对于江大贴吧，因为注册并不受实名限制，并且由于各种水贴的监管不当，所以难以保证各种资源的可信度，也并不容易拥有一个良好的网络学习交流氛围。）对于大家可能关心的军训，江大是在大一结束的暑假进行军训，那时正好是梅雨季节，所以学校在这方面还是做的比较人性化。</p> 
-		  <p class="lead">   关于专业课，大一一般是没有的，可是有的学院会有专业讲座，大概每两周一节的样子，院长或者是老师会给大家普及一下专业的基本知识和就业方向。</p>  
-        </section>
+      </section>
+      <!-- League -->
+      <section>
+        <div class="page-header">
+          <h1 id="sub-league"></h1>
+        </div>
+        <p class="lead" id="league"></p>
+      </section>
       </div>
-    </div>
-
-  </div>
-
-
-
-
-    <!-- Footer
-    ================================================== -->
-    <footer class="footer">
-      <div class="container">
-        
       </div>
-    </footer>
-
-
-
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-
-    <script src="js/jquery_002.js"></script>
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/bootstro.js"></script>
-    <script src="js/prettify.js"></script>
-
-  <script src="js/jquery_003.js"></script>
-    <script>
-      $(document).ready(function(){
-        $("img.lazy").unveil();
-        
-             $("#start-intro").click(function(){
-                bootstro.start();    
-            });
-
-             $.scrollUp({
-                  scrollName: 'scrollUp', // Element ID
-                  topDistance: '300', // Distance from top before showing element (px)
-                  topSpeed: 300, // Speed back to top (ms)
-                  animation: 'fade', // Fade, slide, none
-                  animationInSpeed: 200, // Animation in speed (ms)
-                  animationOutSpeed: 200, // Animation out speed (ms)
-                  scrollText: '', // Text for element
-                  activeOverlay: false  // Set CSS color to display scrollUp active point, e.g '#00FFFF'
-            });
-          });
-    </script>
-    <script src="js/holder.js"></script>
-    <script src="js/application.js"></script>
-  
-
-<a style="display: none; position: fixed; z-index: 2147483647;" title="" href="#top" id="scrollUp"></a></body></html>
+      </div>
+      <!-- Footer
+      ================================================== -->
+      <footer class="footer">
+        <div class="container">
+          <p id="contact"></p>
+        </div>
+      </footer>
+      <!-- Le javascript==================================================-
+      ->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="js/jquery-3.2.1.js"></script>
+      <script src="js/bootstrap.js"></script>
+      <script src="js/study.js"></script>
+  </body>
+</html>
