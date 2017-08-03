@@ -1,8 +1,20 @@
-JnWelcome
-=========
-
-* 开始利用JSON作内容存储．
-* 利用简单的jQuery与Ajax写入内容．
 
 
-之后想起来什么再写吧...书读太少...
+# JnWelcome
+
+
+
+## Usage
+
+
+
+## Developing
+
+
+
+### Tools
+
+Created with [Nodeclipse](https://github.com/Nodeclipse/nodeclipse-1)
+ ([Eclipse Marketplace](http://marketplace.eclipse.org/content/nodeclipse), [site](http://www.nodeclipse.org))   
+
+Nodeclipse is free open-source project that grows with your contributions.
