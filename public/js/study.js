@@ -4,7 +4,7 @@
 	url:"json/study.json",
 	async:false,
 	success:function(data) {
-		var dataObj = JSON.parse(data);
+		var dataObj = data;
 		$("#footer").load("template/footer.html",function(){
 			fillData(dataObj);
 		});
